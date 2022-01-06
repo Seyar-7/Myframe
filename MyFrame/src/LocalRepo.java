@@ -11,7 +11,7 @@ public class LocalRepo {
 	}
 	public static void array(){
 		ArrayList<Integer> arr = new ArrayList<Integer>();
-		for(int i = 1; i<=10; i++) {
+		for(int i = 1; i<=20; i++) {
 			arr.add(i);
 		}
 		System.out.println(arr);
