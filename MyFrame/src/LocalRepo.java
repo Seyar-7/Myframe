@@ -6,7 +6,7 @@ public class LocalRepo {
 	
 		System.out.println("This is test");
 		
-		System.out.println(array());
+		array();
 
 	}
 	public static void array(){
@@ -14,6 +14,7 @@ public class LocalRepo {
 		for(int i = 1; i<=10; i++) {
 			arr.add(i);
 		}
+		System.out.println(arr);
 	}
 
 }
